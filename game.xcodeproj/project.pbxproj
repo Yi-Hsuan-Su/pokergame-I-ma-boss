@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041A71ED228880C5000A975E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A71EC228880C5000A975E /* Card.swift */; };
+		041A71EF228880F2000A975E /* Poker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A71EE228880F2000A975E /* Poker.swift */; };
+		041A71F122888116000A975E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A71F022888116000A975E /* Game.swift */; };
+		041A71F32289B125000A975E /* endgameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A71F22289B125000A975E /* endgameViewController.swift */; };
+		041A71FE2289C081000A975E /* casinogod.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 041A71FD2289C081000A975E /* casinogod.mp3 */; };
 		04C05BE52283356300FC3130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C05BE42283356300FC3130 /* AppDelegate.swift */; };
 		04C05BE72283356300FC3130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C05BE62283356300FC3130 /* ViewController.swift */; };
 		04C05BEA2283356300FC3130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C05BE82283356300FC3130 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		04C05BEF2283356400FC3130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C05BED2283356400FC3130 /* LaunchScreen.storyboard */; };
 		04C05BFA2283356400FC3130 /* gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C05BF92283356400FC3130 /* gameTests.swift */; };
 		04C05C052283356400FC3130 /* gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C05C042283356400FC3130 /* gameUITests.swift */; };
+		04C05C1B2284795300FC3130 /* playcontrollerview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C05C1A2284795300FC3130 /* playcontrollerview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041A71EC228880C5000A975E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = "../../../Downloads/PokerGame-master/PokerGame/Card.swift"; sourceTree = "<group>"; };
+		041A71EE228880F2000A975E /* Poker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Poker.swift; path = "../../../Downloads/PokerGame-master/PokerGame/Poker.swift"; sourceTree = "<group>"; };
+		041A71F022888116000A975E /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = "../../../Downloads/PokerGame-master/PokerGame/Game.swift"; sourceTree = "<group>"; };
+		041A71F22289B125000A975E /* endgameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endgameViewController.swift; sourceTree = "<group>"; };
+		041A71FA2289C000000A975E /* thug.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thug.mp3; sourceTree = "<group>"; };
+		041A71FD2289C081000A975E /* casinogod.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = casinogod.mp3; sourceTree = "<group>"; };
 		04C05BE12283356300FC3130 /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C05BE42283356300FC3130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C05BE62283356300FC3130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,7 @@
 		04C05C002283356400FC3130 /* gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C05C042283356400FC3130 /* gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameUITests.swift; sourceTree = "<group>"; };
 		04C05C062283356400FC3130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C05C1A2284795300FC3130 /* playcontrollerview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playcontrollerview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +113,16 @@
 				04C05BE42283356300FC3130 /* AppDelegate.swift */,
 				04C05BE62283356300FC3130 /* ViewController.swift */,
 				04C05BE82283356300FC3130 /* Main.storyboard */,
+				041A71F22289B125000A975E /* endgameViewController.swift */,
+				041A71EC228880C5000A975E /* Card.swift */,
+				041A71EE228880F2000A975E /* Poker.swift */,
+				041A71F022888116000A975E /* Game.swift */,
+				04C05C1A2284795300FC3130 /* playcontrollerview.swift */,
 				04C05BEB2283356400FC3130 /* Assets.xcassets */,
 				04C05BED2283356400FC3130 /* LaunchScreen.storyboard */,
 				04C05BF02283356400FC3130 /* Info.plist */,
+				041A71FD2289C081000A975E /* casinogod.mp3 */,
+				041A71FA2289C000000A975E /* thug.mp3 */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -231,6 +251,7 @@
 			files = (
 				04C05BEF2283356400FC3130 /* LaunchScreen.storyboard in Resources */,
 				04C05BEC2283356400FC3130 /* Assets.xcassets in Resources */,
+				041A71FE2289C081000A975E /* casinogod.mp3 in Resources */,
 				04C05BEA2283356300FC3130 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041A71EF228880F2000A975E /* Poker.swift in Sources */,
+				041A71F122888116000A975E /* Game.swift in Sources */,
 				04C05BE72283356300FC3130 /* ViewController.swift in Sources */,
+				041A71F32289B125000A975E /* endgameViewController.swift in Sources */,
 				04C05BE52283356300FC3130 /* AppDelegate.swift in Sources */,
+				04C05C1B2284795300FC3130 /* playcontrollerview.swift in Sources */,
+				041A71ED228880C5000A975E /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

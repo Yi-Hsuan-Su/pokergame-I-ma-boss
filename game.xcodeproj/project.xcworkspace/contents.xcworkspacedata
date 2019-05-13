@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Sound">
+   </FileRef>
+   <FileRef
+      location = "group:../Sound">
+   </FileRef>
+   <FileRef
       location = "self:game.xcodeproj">
    </FileRef>
 </Workspace>
